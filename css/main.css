@@ -497,7 +497,7 @@ header {
 .swiper-slide {
 	height: fit-content;
 	max-height: 36rem;
-	
+
 	border: 0.5rem solid var(--color-bg-4);
 	overflow: hidden;
 	transition: var(--transition);
@@ -530,8 +530,10 @@ header {
 }
 
 .exhibitions__empty {
-	width: 26rem;
 	position: absolute;
+
+	width: 26rem;
+	
 	right: 14rem;
 	top: 0;
 }
@@ -558,8 +560,9 @@ header {
 .exhibitions__gallery {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	margin-top: 5rem;
 	gap: 3rem;
+
+	margin-top: 5rem;
 }
 
 .exhibitions__gallery article {
@@ -578,6 +581,7 @@ header {
 
 .exhibitions__gallery article img {
 	height: 100%;
+	
 	filter: saturate(0);
 	transition: var(--transition);
 }
