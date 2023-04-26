@@ -1,4 +1,7 @@
 :root {
+	--container-width-lg: 88%;
+	--container-width-md: 92%;
+
 	/* ========== Green theme ========== */
 	--color-primary: #ff7b02;
 	--color-primary-variant: #e5a55d;
@@ -19,29 +22,30 @@
   --color-light: #d0b8e0;
   --color-white: hsl(0, 0%, 90%); */
 
-	--container-width-lg: 88%;
-	--container-width-md: 92%;
-
 	--transition: all 400ms ease;
 }
 
 * {
 	margin: 0;
 	padding: 0;
+
 	border: 0;
+	box-sizing: border-box;
+
 	outline: 0;
 	list-style: none;
 	text-decoration: none;
-	box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
   width: 0.5rem;
+
   background: rgba(229, 165, 93, 0.2);
 }
 
 ::-webkit-scrollbar-thumb {
   width: 100%;
+
   background: var(--color-primary-variant);
   border-radius: 0.25rem;
 }
@@ -52,9 +56,10 @@ html {
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: var(--color-bg-3) url('../images/bg-texture.png');
-	color: var(--color-light);
 	line-height: 1.7;
+
+	color: var(--color-light);
+	background: var(--color-bg-3) url('../images/bg-texture.png');
 }
 
 h1,
@@ -65,6 +70,7 @@ h2 {
 
 h1 {
 	font-size: 4rem;
+
 	color: var(--color-white);
 }
 
@@ -74,6 +80,7 @@ h2 {
 
 a {
 	color: var(--color-light);
+
 	transition: var(--transition);
 }
 
@@ -83,25 +90,32 @@ a:hover {
 
 img {
 	display: block;
-	object-fit: cover;
+
 	width: 100%;
+
+	object-fit: cover;
 }
 
 .container {
 	width: var(--container-width-lg);
-	margin: 0 auto;
 	max-width: 2160px;
+	
+	margin: 0 auto;
 }
 
 /* ==================================== Nav ==================================== */
 nav {
-	height: 5rem;
-	width: 100vw;
+	position: fixed;
+
 	display: grid;
 	place-items: center;
-	position: fixed;
+
+	height: 5rem;
+	width: 100vw;
+
 	top: 0;
 	left: 0;
+
 	z-index: 99;
 }
 
