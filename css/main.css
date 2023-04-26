@@ -581,7 +581,7 @@ header {
 
 .exhibitions__gallery article img {
 	height: 100%;
-	
+
 	filter: saturate(0);
 	transition: var(--transition);
 }
@@ -600,8 +600,9 @@ footer {
 }
 
 .footer__container {
-	border-top: 0.5rem solid var(--color-bg-4);
 	padding-top: 5rem;
+
+	border-top: 0.5rem solid var(--color-bg-4);
 }
 
 .footer__head {
@@ -611,28 +612,32 @@ footer {
 }
 
 .footer__btn {
-	width: 5rem;
-	height: 5rem;
-	border: 0.2rem solid var(--color-primary-variant);
-	border-radius: 50%;
 	font-size: 3rem;
-	color: var(--color-primary-variant);
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	width: 5rem;
+	height: 5rem;
+	
+	color: var(--color-primary-variant);
+	border: 0.2rem solid var(--color-primary-variant);
+	border-radius: 50%;
 	transition: var(--transition);
 }
 
 .footer__btn:hover {
-	transform: translateY(-1rem);
 	border-color: var(--color-primary);
+	transform: translateY(-1rem);
 }
 
 .footer__links {
-	margin: 3rem 0 5rem;
 	display: flex;
 	align-items: center;
 	gap: 5rem;
+	
+	margin: 3rem 0 5rem;
 }
 
 /* ==================================== Media queries (medium screens) ==================================== */
