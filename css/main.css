@@ -469,7 +469,7 @@ header {
 
 .about__right p {
 	font-size: 0.9rem;
-	
+
 	margin: 0 4rem 1.5rem 0;
 }
 
@@ -488,15 +488,17 @@ header {
 }
 
 .swiper-wrapper {
-	margin-top: 5rem;
 	height: 37rem;
+
+	margin-top: 5rem;
 	padding-bottom: 0;
 }
 
 .swiper-slide {
-	border: 0.5rem solid var(--color-bg-4);
 	height: fit-content;
 	max-height: 36rem;
+	
+	border: 0.5rem solid var(--color-bg-4);
 	overflow: hidden;
 	transition: var(--transition);
 }
