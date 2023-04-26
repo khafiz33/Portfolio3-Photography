@@ -734,11 +734,13 @@ footer {
 
 	/* ==================================== Header ==================================== */
 	header {
-		height: fit-content;
-		padding: 12rem 0 10rem;
-		margin-top: 0;
 		display: grid;
 		place-items: center;
+
+		height: fit-content;
+
+		padding: 12rem 0 10rem;
+		margin-top: 0;
 	}
 
 	.header__image-bg,
@@ -749,17 +751,20 @@ footer {
 	.header__container {
 		grid-template-columns: 40% 54%;
 		gap: 6%;
+
 		margin: 0;
 	}
 
 	.header__image-lg {
-		filter: saturate(1) brightness(1);
-		border: 1rem solid var(--color-bg-2);
-    border-radius: 15rem 15rem 0 0;
-    overflow: hidden;
 		width: 100%;
+
 		top: 0;
 		left: 0;
+
+		border: 1rem solid var(--color-bg-2);
+    border-radius: 15rem 15rem 0 0;
+		filter: saturate(1) brightness(1);
+    overflow: hidden;
 	}
 
 	.empty {
@@ -772,6 +777,7 @@ footer {
 
 	.header__right p {
 		width: 100%;
+
 		margin-top: 1.5rem;
 	}
 
@@ -781,16 +787,19 @@ footer {
 	}
 
 	.header__btn-md {
+		font-weight: 600;
+
+		display: inline-block;
+
+		margin-top: 2rem;
+		padding: 0.6rem 1.6rem;
+		
+		color: var(--color-bg-1);
 		background: linear-gradient(
 			135deg,
 			var(--color-primary-variant),
 			var(--color-primary)
 		);
-		color: var(--color-bg-1);
-		margin-top: 2rem;
-		display: inline-block;
-		padding: 0.6rem 1.6rem;
-		font-weight: 600;
 		border-radius: 0.3rem;
 	}
 
