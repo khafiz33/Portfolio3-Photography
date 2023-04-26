@@ -821,7 +821,7 @@ footer {
 	.about__image-lg {
 		left: 0;
 		top: 0;
-		
+
 		filter: saturate(1) brightness(1);
 	}
 
@@ -847,8 +847,9 @@ footer {
   }
 
   .swiper-wrapper {
-    margin-top: 4rem;
     height: fit-content;
+		
+    margin-top: 4rem;
     padding-bottom: 5rem;
   }
 
