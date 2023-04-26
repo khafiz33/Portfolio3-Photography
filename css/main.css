@@ -793,7 +793,7 @@ footer {
 
 		margin-top: 2rem;
 		padding: 0.6rem 1.6rem;
-		
+
 		color: var(--color-bg-1);
 		background: linear-gradient(
 			135deg,
@@ -821,6 +821,7 @@ footer {
 	.about__image-lg {
 		left: 0;
 		top: 0;
+		
 		filter: saturate(1) brightness(1);
 	}
 
