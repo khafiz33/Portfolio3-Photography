@@ -876,7 +876,7 @@ footer {
   h1, h2 {
     font-size: 2rem;
     line-height: 1.3;
-		
+
     color: var(--color-white);
   }
 
@@ -889,14 +889,17 @@ footer {
   .header__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+
     text-align: center;
   }
 
   .header__image-lg {
     width: 80%;
     height: 20rem;
+
     margin: 0 auto;
     margin-top: 7rem;
+		
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
   }
