@@ -899,7 +899,7 @@ footer {
 
     margin: 0 auto;
     margin-top: 7rem;
-		
+
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
   }
@@ -963,6 +963,7 @@ footer {
   .exhibitions__gallery article {
     width: 100%;
     height: fit-content;
+		
     margin-bottom: 1rem;
   }
 
