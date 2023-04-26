@@ -963,7 +963,7 @@ footer {
   .exhibitions__gallery article {
     width: 100%;
     height: fit-content;
-		
+
     margin-bottom: 1rem;
   }
 
@@ -979,6 +979,7 @@ footer {
   .footer__links {
     flex-direction: column;
     gap: 2rem;
+		
     margin-top: 5rem;
   }
 }
