@@ -848,7 +848,7 @@ footer {
 
   .swiper-wrapper {
     height: fit-content;
-		
+
     margin-top: 4rem;
     padding-bottom: 5rem;
   }
@@ -856,12 +856,14 @@ footer {
   /* ==================================== Exhibition ==================================== */
   .exhibitions__head > p {
     width: 100%;
+
     margin-top: 2rem;
   }
 
   .exhibitions__gallery {
-    margin-top: 3rem;
     gap: 1rem;
+		
+    margin-top: 3rem;
   }
 
   .exhibitions__gallery article {
